@@ -1,0 +1,6 @@
+{
+  "name": "the-place-by-the-bridge",
+  "version": "0.0.1",
+  "description": "simple chat app using socket.io",
+  "dependencies": {}
+}
