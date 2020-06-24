@@ -1,11 +1,19 @@
-html {margin: 0; padding: 0; box-sizing: border-box; }
+
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing:
+  border-box;
+  background-color: var(--creme-brulee);
+}
 body { font: 13px Helvetica, Arial; }
-form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
-form input { border: 0; padding: 10px; width: 90%; margin-right: 0.5%; }
-form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
-     #messages { list-style-type: none; margin: 0; padding: 0; }
-     #messages li { padding: 5px 10px; }
-     #messages li:nth-child(odd) { background: #eee; }
+form { background: var(--google-green-1); padding: 3px; position: fixed; bottom: 2vh; width: 100%; }
+form input { border: 0; padding: 10px; width: 48vw; margin-right: 0.5%; }
+form button { width: 6vw; background: var(--google-green-2); border: none; border-radius: 8px; padding: 10px; margin-left: 1vw;}
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: var(--creme-anglais) }
 
 .container{
   /* display: flex; */
@@ -16,27 +24,46 @@ form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 
   min-width: 100%;
   min-height: 60%;
 }
-.jitsi{
-  /* flex: auto; */
+
+
+
+.chatbox{
+  border: 0;
+  padding: 10px;
+  width: 40vw;
+  margin-right: 0.5%;
+  background-color: darkgrey:
+  color: darkgrey;
 
 }
-.hivemind{
-/* flex: 2; */
-min-width: 100%;
-min-height: 40%;
-}
-.sketchbook{
-/* flex: auto; */
-}
-.chatbox{
-  border: 0; padding: 10px; width: 50%; margin-right: 0.5%;
-}
 .chatbut{
-  width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px;
+  width: 9%;
+  background: rgb(130, 224, 255);
+  border: none;
+  padding: 10vw;
 }
+.textentry{
+  width: 30vw;
+  background-color: ivory;
+}
+
+
 .map{
   width:50%;
+  float:left;
 }
-.test{
-  color: purple;
+.chatapp{
+    float: right;
+    min-width: 42vw;
+    height: 88vh;
+    background-color: ivory;
+}
+
+.mapframe{
+  min-width: 55vw;
+  min-height: 96vh;
+}
+.messagelist{
+  height: 88vh;
+  overflow: auto;
 }
